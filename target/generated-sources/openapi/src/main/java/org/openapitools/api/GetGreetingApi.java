@@ -20,7 +20,7 @@ import javax.validation.constraints.*;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-01-03T01:42:35.598741900+08:00[Asia/Singapore]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-01-03T02:26:42.068745+08:00[Asia/Singapore]")
 @Validated
 @Api(value = "get-greeting", description = "the get-greeting API")
 public interface GetGreetingApi {

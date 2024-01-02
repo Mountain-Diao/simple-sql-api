@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.context.request.NativeWebRequest;
 import java.util.Optional;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-01-03T01:42:35.598741900+08:00[Asia/Singapore]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-01-03T02:26:42.068745+08:00[Asia/Singapore]")
 @Controller
 @RequestMapping("${openapi.sIMPLE.base-path:}")
 public class GetGreetingApiController implements GetGreetingApi {

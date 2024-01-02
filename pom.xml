@@ -12,6 +12,7 @@
     </parent>
 
     <build>
+        <sourceDirectory>${project.build.directory}/generated-sources/openapi</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.openapitools</groupId>
@@ -53,6 +54,20 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.openapitools</groupId>
+                            <artifactId>openapi-generator</artifactId>
+                            <version>5.1.0</version>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
             </plugin>
         </plugins>
     </build>

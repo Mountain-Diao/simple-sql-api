@@ -1,4 +1,4 @@
 package com.controller;
 
-public interface ApiController {
+public class ApiController{
 }
