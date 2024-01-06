@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.lang.NonNull;
 
-@ConfigurationProperties(prefix = "sql.db.connection")
+@ConfigurationProperties(prefix = "spring.datasource")
 public class SqlDbConfig {
     @NonNull
     private String url1;
